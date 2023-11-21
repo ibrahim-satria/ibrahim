@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url();
+
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav li:hover {
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+header {
+    background-color: aqua;
+    width: 1300px;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-profile {
+    width: 400px;
+    border-radius: 15px 50px 30px;
+    margin-right: 40px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    box-shadow: 0px 0px 20px;
+    width: 1000px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.Beranda{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.Sejarah {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: brown;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    height: 30px;
+    line-height: 40px;
+    width: 1300px;
+}
+
+h1 {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+p {
+    color: red;
+}
+
+aside {
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px;
+    height: 700px;
+    width: 1000px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
