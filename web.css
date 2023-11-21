@@ -32,7 +32,7 @@ nav li a:hover {
 
 header {
     background-color: aqua;
-    width: 1300px;
+    width: 1900px;
     height: 80px;
     padding: 0 40px;
     display: flex;
@@ -80,7 +80,7 @@ footer {
     padding: 40px;
     height: 30px;
     line-height: 40px;
-    width: 1300px;
+    width: 1900px;
 }
 
 h1 {
